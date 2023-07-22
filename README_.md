@@ -15,8 +15,8 @@ When considering only the state of the board, and after taking into account boar
 * 3 distinct positions are drawn (often called a "cat's game")
 
 **Pseudocode**
+```
 function minimax(node, depth, isMaximizingPlayer, alpha, beta):
-
     if node is a leaf node :
         return value of the node
     
@@ -42,7 +42,7 @@ function minimax(node, depth, isMaximizingPlayer, alpha, beta):
         
 // Calling the function for the first time.
 minimax(0, 0, true, -INFINITY, +INFINITY)
-
+```
 **Minimax Algorithm Visualisation**
 
 ![Minimax Algorithm Visualisation](https://github.com/Jawaharlal06/TicTacToe/blob/main/MiniMax-algorithm.png)
